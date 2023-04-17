@@ -1,8 +1,17 @@
 * {
+    box-sizing: border-box;
     background-color: darkblue;
 }
 
 h1 {
     color:white
     
+}
+
+nav {
+    align-self: center;
+}
+
+img {
+    border-radius: 15px;
 }
