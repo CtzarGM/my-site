@@ -10,12 +10,42 @@ html {
   background-color: black;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: dimgray;
+}
+
+footer {
+  background-color: lightslategray;
+}
+
+section {
+  background-color: darkslategrey;
 }
 
 img {
-  border: 5px solid gray;
+  border-radius: 50%;
   max-width: 50px;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
